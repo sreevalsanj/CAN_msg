@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from tabulate import tabulate
 import can
 import struct
