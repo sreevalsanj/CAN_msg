@@ -1,3 +1,5 @@
+#! usr/bin/env python
+
 from tksheet import Sheet
 import tkinter as tk
 import random
