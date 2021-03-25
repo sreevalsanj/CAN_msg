@@ -1,4 +1,4 @@
-#! usr/bin/env python
+#! /usr/bin/env python
 
 from tksheet import Sheet
 import tkinter as tk
