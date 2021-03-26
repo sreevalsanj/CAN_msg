@@ -70,7 +70,7 @@ class Dataa:
             self.steering=bytearray(self.message.data)
             self.he= self.steering.hex()
 
-            op = self.to_little(self.he[2:6])
+            op = self.he[2:6]
             self.sternAngle= (int(op,16))/4
 
         elif self.message.arbitration_id==0x202:
