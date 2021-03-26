@@ -43,7 +43,8 @@ class Dataa:
         return str_little
         
     def spe(self):
-        
+       #Every Can id except '0x292' is  little endian and swap to get correct value.
+       #for '0x292' not in little endian, so no need to swap.
         self.message=self.bus.recv()
         
         if self.message.arbitration_id==0x201:
